@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard | Together254</title>
+  <link rel="stylesheet" href="css/dashboard.css" />
+  <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Together254</h1>
+    <p id="user-info">Checking your funddrive...</p>
+    
+    <div id="funddrive-options" style="display: none;">
+      <!-- Content will be inserted by JS -->
+    </div>
+    
+    <button id="logout-btn">Logout</button>
+  </div>
+
+  <script type="module" src="js/dashboard.js"></script>
+</body>
+</html>
